@@ -1,5 +1,0 @@
-{
-  "AppSyncApiName": "tmgallorg",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "DynamoDBEnableServerSideEncryption": false
-}
