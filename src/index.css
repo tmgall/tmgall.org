@@ -2,14 +2,14 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --bg: #F8F6F1;
-  --bg-subtle: #EFECE5;
-  --text: #1A1A18;
-  --text-secondary: #6B6860;
-  --accent: #C8512B;
-  --accent-hover: #A8411F;
-  --border: #D8D4CB;
-  --border-light: #E8E4DC;
+  --bg: #1B2430;
+  --bg-subtle: #232F3E;
+  --text: #E8E4DF;
+  --text-secondary: #9BA8B4;
+  --accent: #D4A574;
+  --accent-hover: #C4956A;
+  --border: #2E3B4A;
+  --border-light: #283548;
   --serif: 'DM Serif Display', serif;
   --sans: 'Instrument Sans', sans-serif;
   --mono: 'JetBrains Mono', monospace;
@@ -62,7 +62,7 @@ body::before {
   inset: 0;
   z-index: 9999;
   pointer-events: none;
-  opacity: 0.025;
+  opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   background-size: 256px 256px;
 }
@@ -79,7 +79,7 @@ nav {
 }
 
 nav.scrolled {
-  background: rgba(248, 246, 241, 0.92);
+  background: rgba(27, 36, 48, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 var(--border-light);
@@ -236,9 +236,9 @@ nav .container {
 
 .btn-primary:hover {
   background: var(--accent);
-  color: #fff;
+  color: var(--bg);
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(200, 81, 43, 0.25);
+  box-shadow: 0 4px 12px rgba(212, 165, 116, 0.25);
 }
 
 .btn-secondary {
@@ -421,7 +421,7 @@ nav .container {
 .project-card:hover {
   border-color: var(--accent);
   transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
 .project-card:hover::before {
@@ -520,7 +520,7 @@ nav .container {
   border-color: var(--accent);
   color: var(--accent);
   transform: translateY(-1px);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .contact-link svg {
@@ -583,7 +583,7 @@ footer .container {
     top: 100%;
     left: 0;
     right: 0;
-    background: rgba(248, 246, 241, 0.97);
+    background: rgba(27, 36, 48, 0.97);
     backdrop-filter: blur(12px);
     padding: 1.5rem 2rem;
     gap: 1.25rem;
