@@ -76,11 +76,12 @@ function App() {
       {/* Hero */}
       <section className="hero">
         <div className="container hero-content">
-          <p className="hero-label">Software Engineer</p>
-          <h1>Hi, I'm T.M. Gall</h1>
+          <p className="hero-label">Software Development Engineer</p>
+          <h1>Hi, I'm Tyler Gall</h1>
           <p className="hero-description">
-            I build thoughtful, reliable software. Currently focused on creating
-            tools and systems that make complex problems feel simple.
+            I build scalable cloud infrastructure at AWS. Currently working on
+            capacity systems and tooling for GameLift Streams, making complex
+            distributed problems feel simple.
           </p>
           <div className="hero-cta">
             <a href="#contact" className="btn btn-primary" onClick={(e) => scrollTo(e, '#contact')}>
@@ -104,32 +105,34 @@ function App() {
           <div className="about-content reveal" ref={addRevealRef}>
             <div className="about-text">
               <p>
-                I'm a software engineer who cares about writing clean, maintainable code
-                and building products that people actually enjoy using. I believe in
-                simplicity, clear thinking, and shipping work that matters.
+                I'm a software engineer at AWS focused on capacity planning, scalable
+                cloud infrastructure, and operational tooling. I design systems that give
+                engineering leadership real-time visibility into thousands of GPU instances
+                and help teams ship faster with confidence.
               </p>
               <p>
-                When I'm not writing code, you'll find me exploring new technologies,
-                contributing to open-source projects, and continuously learning about
-                the craft of software engineering.
+                I studied Mathematics and Computer Science at the University of Illinois,
+                where I researched competitive random walks on n-dimensional tori. I bring
+                that same analytical rigor to everything I build — from automated pipelines
+                to cross-region architectures.
               </p>
             </div>
             <div className="about-details">
               <div className="detail-item">
                 <span className="detail-label">Location</span>
-                <span className="detail-value">Your City, ST</span>
+                <span className="detail-value">Seattle, WA</span>
               </div>
               <div className="detail-item">
                 <span className="detail-label">Focus</span>
-                <span className="detail-value">Full Stack</span>
+                <span className="detail-value">Cloud Infrastructure</span>
               </div>
               <div className="detail-item">
                 <span className="detail-label">Languages</span>
-                <span className="detail-value">TS, Python, Go</span>
+                <span className="detail-value">Java, TS, Python, C++</span>
               </div>
               <div className="detail-item">
                 <span className="detail-label">Education</span>
-                <span className="detail-value">B.S. Computer Science</span>
+                <span className="detail-value">B.S. Math + CS, UIUC</span>
               </div>
             </div>
           </div>
@@ -147,52 +150,78 @@ function App() {
           </div>
           <ul className="timeline reveal" ref={addRevealRef}>
             <li className="timeline-item">
-              <span className="timeline-date">2023 — Present</span>
+              <span className="timeline-date">2025 — Present</span>
               <div>
-                <h3 className="timeline-role">Senior Software Engineer</h3>
-                <p className="timeline-company">Company Name</p>
+                <h3 className="timeline-role">Software Development Engineer II</h3>
+                <p className="timeline-company">AWS — GameLift Streams, Core Team</p>
                 <p className="timeline-desc">
-                  Led development of core platform features serving thousands of users.
-                  Architected scalable backend services and mentored junior engineers.
+                  Designing capacity visibility and management systems tracking thousands of
+                  concurrent GPU instances. Building automated pipelines for business metrics,
+                  on-demand pool monitoring, and region expansion automation. Team SME for
+                  Auto Scaling Group behavior and EC2 instance lifecycle.
                 </p>
                 <div className="timeline-tags">
+                  <span className="tag">Java</span>
                   <span className="tag">TypeScript</span>
-                  <span className="tag">React</span>
-                  <span className="tag">Node.js</span>
-                  <span className="tag">AWS</span>
+                  <span className="tag">CloudWatch</span>
+                  <span className="tag">EC2</span>
+                  <span className="tag">CDK</span>
                 </div>
               </div>
             </li>
             <li className="timeline-item">
-              <span className="timeline-date">2021 — 2023</span>
+              <span className="timeline-date">2023 — 2025</span>
               <div>
-                <h3 className="timeline-role">Software Engineer</h3>
-                <p className="timeline-company">Previous Company</p>
+                <h3 className="timeline-role">Software Development Engineer I</h3>
+                <p className="timeline-company">AWS — GameLift Streams</p>
                 <p className="timeline-desc">
-                  Built and maintained full-stack web applications. Improved CI/CD
-                  pipelines and reduced deployment times by 40%.
+                  Owned Service Quotas onboarding for GA launch. Designed a global quota
+                  utilization metrics system with DynamoDB Global Tables managing 10,000+
+                  records. Authored launch plans coordinating multi-region feature releases
+                  and delivered console features adopted by ~90% of accounts.
+                </p>
+                <div className="timeline-tags">
+                  <span className="tag">Java</span>
+                  <span className="tag">DynamoDB</span>
+                  <span className="tag">CloudFormation</span>
+                  <span className="tag">Lambda</span>
+                  <span className="tag">Step Functions</span>
+                </div>
+              </div>
+            </li>
+            <li className="timeline-item">
+              <span className="timeline-date">2021 &amp; 2022</span>
+              <div>
+                <h3 className="timeline-role">Software Development Engineer Intern</h3>
+                <p className="timeline-company">AWS — DevOps Guru &amp; CodeGuru Profiler</p>
+                <p className="timeline-desc">
+                  Engineered a notification service for DevOps Guru using CloudFormation
+                  and Lambda. Integrated features into CodeGuru Profiler infrastructure and
+                  improved performance benchmarks through back-end optimization.
                 </p>
                 <div className="timeline-tags">
                   <span className="tag">Python</span>
-                  <span className="tag">Django</span>
-                  <span className="tag">PostgreSQL</span>
-                  <span className="tag">Docker</span>
+                  <span className="tag">CloudFormation</span>
+                  <span className="tag">Lambda</span>
+                  <span className="tag">S3</span>
                 </div>
               </div>
             </li>
             <li className="timeline-item">
-              <span className="timeline-date">2019 — 2021</span>
+              <span className="timeline-date">2019 — 2022</span>
               <div>
-                <h3 className="timeline-role">Junior Developer</h3>
-                <p className="timeline-company">First Company</p>
+                <h3 className="timeline-role">B.S. Mathematics + Computer Science</h3>
+                <p className="timeline-company">University of Illinois, Urbana-Champaign</p>
                 <p className="timeline-desc">
-                  Developed internal tools and customer-facing features.
-                  Contributed to code reviews and adopted agile methodologies.
+                  GPA: 4.0/4.0, Bronze Tablet Recipient. Undergraduate research on competitive
+                  random walks on n-dimensional tori using C++, CUDA, and Python simulations.
+                  Runner-up award from Illinois Mathematics Lab for best undergraduate research.
                 </p>
                 <div className="timeline-tags">
-                  <span className="tag">JavaScript</span>
-                  <span className="tag">Vue.js</span>
-                  <span className="tag">MySQL</span>
+                  <span className="tag">C++</span>
+                  <span className="tag">CUDA</span>
+                  <span className="tag">Python</span>
+                  <span className="tag">Probability Theory</span>
                 </div>
               </div>
             </li>
@@ -292,7 +321,7 @@ function App() {
               and new opportunities. Feel free to reach out.
             </p>
             <div className="contact-links">
-              <a href="mailto:hello@tmgall.org" className="contact-link">
+              <a href="mailto:tmgall@outlook.com" className="contact-link">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.8" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
                 Email
               </a>
@@ -312,7 +341,7 @@ function App() {
       {/* Footer */}
       <footer>
         <div className="container">
-          <p className="footer-text">&copy; 2026 T.M. Gall</p>
+          <p className="footer-text">&copy; 2026 Tyler Gall</p>
           <p className="footer-text">Built with <span>care</span></p>
         </div>
       </footer>
