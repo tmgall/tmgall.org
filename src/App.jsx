@@ -53,7 +53,7 @@ function App() {
       <nav className={navScrolled ? 'scrolled' : ''}>
         <div className="container">
           <a href="#" className="nav-logo" onClick={(e) => scrollTo(e, '#')}>
-            tmgall
+            Tyler Gall
           </a>
           <button
             className="nav-toggle"
