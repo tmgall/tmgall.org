@@ -95,13 +95,8 @@ function App() {
     <>
       <nav className={navScrolled ? 'scrolled' : ''}>
         <div className="container">
-<<<<<<< HEAD
-          <a href="#" className="nav-logo" onClick={(e) => scrollTo(e, '#')}>
-            Tyler Gall
-=======
           <a href="/" className="nav-logo" onClick={(event) => navigate(event, '/')}>
             tmgall
->>>>>>> ceb8d4c (Add projects page, torus animation, and Lexicon project entry)
           </a>
           <button
             className="nav-toggle"
